@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2fff9;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #99ebcf;
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+    padding: 20px;
+}
+
+img {
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    margin-top: 20px;
+}
+
+.info-table td {
+    padding: 10px;
+    border: 1px solid #8be6b4;
+    text-align: left;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #cff3b1;
+}
+
+.info-table tr:hover {
+    background-color: #ddd;
+}
+
+h2{
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center; 
+}
+
+.social-icons a {
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 32px; 
+    height: 32px;
+}
+
+#agendamento-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#cff3b1;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.1);
+    color: #000000;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #072211;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+}
+#voltar-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #124e21;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+#voltar-btn:hover {
+    background-color: #052204;
+}
+
+footer {
+    text-align: center;
+    background-color: #99ebcf;
+    color: #000000;
+    padding: 10px;
+    margin-top: 20px;
+}
